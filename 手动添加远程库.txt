@@ -1,0 +1,6 @@
+用命令--git init
+创建本地仓库
+或者git init -b （主支线名）、
+
+命令--git status
+查看分支状态
