@@ -4,3 +4,12 @@
 
 命令--git status
 查看分支状态
+
+在github创建库。因为是空的库，会给出提示进行远程的链接
+echo "# day-9.5" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ty20110624/day-9.5.git  关联仓库
+git push -u origin main  推送本地库到远程库分支--main
