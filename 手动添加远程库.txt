@@ -13,3 +13,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ty20110624/day-9.5.git  关联仓库
 git push -u origin main  推送本地库到远程库分支--main
+
+寻求远端命令的命令 
+git remote -h
